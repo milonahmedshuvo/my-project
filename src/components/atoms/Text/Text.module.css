@@ -1,0 +1,14 @@
+.title {
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #4b5563;
+}
+
+.body {
+    font-size: 1rem;
+}
+
+.small {
+    font-size: 0.875rem;
+    color: #4b5563;
+}
