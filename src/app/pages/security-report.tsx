@@ -15,7 +15,7 @@ const SecurityReportPage = () => {
       title: 'Content security policy',
       value: '',
       recommendation: 'Recommended for XSS protection',
-      status: 'Present' as const
+      status: 'Missing' as const
     },
     {
       title: 'X-Frame-Options',
