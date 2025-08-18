@@ -3,13 +3,13 @@ import  styles  from '@/components/molecules/HeaderInfoItem/HeaderInfoItem.modul
 import  Text  from '@/components/atoms/Text/Text';
 import Badge from '@/components/atoms/Badge/Badge';
 
-
 type HeaderInfoItemProps = {
   title: string;
   value: string;
   recommendation: string;
   status: 'Missing' | 'Present';
 };
+
 
 export const HeaderInfoItem: React.FC<HeaderInfoItemProps> = ({
   title,

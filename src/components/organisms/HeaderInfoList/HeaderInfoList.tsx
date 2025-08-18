@@ -14,6 +14,7 @@ type HeaderInfoListProps = {
 };
 
 
+
 const HeaderInfoList = ({data}:HeaderInfoListProps) => {
 
   return (
@@ -25,5 +26,5 @@ const HeaderInfoList = ({data}:HeaderInfoListProps) => {
   )
 }
 
-export default HeaderInfoList
+export default HeaderInfoList;
 
