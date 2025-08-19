@@ -3,7 +3,7 @@ import React from 'react'
 const reduxStore = () => {
   return (
     <div>
-       <h1> Hello Universe </h1>
+       <h1> Hello Everyones</h1>
     </div>
   )
 }
