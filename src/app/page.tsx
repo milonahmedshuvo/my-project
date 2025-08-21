@@ -1,19 +1,24 @@
-import { HeaderInfoItem } from "@/components/molecules/HeaderInfoItem/HeaderInfoItem";
-import SecurityReportPage from "@/app/pages/security-report"
-import RouteInfoItem from "@/components/molecules/RouteInfoItem/RouteInfoItem";
-import SensitiveRoutePage from "./pages/sensitive-route";
+'use client'
+import TodoApp from "./pages/todo-app";
 
 
 export default function Home() {
+  
+  
+
+
+  
+
 
   return (
-    <div>
-      {/* <p>my app</p> */}
-      {/* <HeaderInfoItem title="Strict transport security" value="Emtry" recommendation="recommendation" status='Missing'></HeaderInfoItem> */}
-      <SecurityReportPage/>
-      <SensitiveRoutePage/>
+    <>  
+    {/* <div style={{display: 'flex', gap:'0.2rem'}} >
+       <Input type="text" placeholder="Give text" onChange={(e)=> setValues(e.target.value)} />
+       <Button workFunc={handleCount}  variant="success" >Submit</Button>
+    </div> */}
 
-      {/* <RouteInfoItem title="/Admin" status="Not Avaiable" /> */}
-    </div>
+     <TodoApp/>
+
+    </>
   )
 }
