@@ -12,3 +12,19 @@
     font-size: 0.875rem;
     color: #4b5563;
 }
+
+/* Home style it  */
+.homeHeaderTitle {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.homeHeaderSubTitle {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 500;
+    color: hsl(214.74deg 15.97% 46.67%);
+    line-height: 1.7rem;
+}

@@ -3,12 +3,13 @@ import style from '@/components/atoms/Text/Text.module.css'
 
 type TextProps = {
     children: React.ReactNode;
-    variant?: 'title' | 'body' | 'small';
+    variant?: 'title' | 'body' | 'small' | 'homeHeaderTitle' | 'homeHeaderSubTitle';
     className?: string
 }
 
 
 const Text = ({children, variant='body', className=''}:TextProps) => {
+
 
   return (
     <p className={`${style[variant]} ${className}`}>

@@ -1,0 +1,9 @@
+.mediam {
+    background: linear-gradient(-60deg, hsl(147 50% 47%), hsl(214 84% 56%) );
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.9rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

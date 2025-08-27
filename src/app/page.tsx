@@ -1,24 +1,22 @@
 'use client'
-import TodoApp from "./pages/todo-app";
+import Form from "@/components/molecules/form/Form"
+import HomeHeader from "@/components/molecules/homeHeader/homeHeader"
+import { useState } from "react"
+
+
 
 
 export default function Home() {
-  
-  
-
-
-  
-
+       const [loading, setLoading]= useState(false)
+       
 
   return (
     <>  
-    {/* <div style={{display: 'flex', gap:'0.2rem'}} >
-       <Input type="text" placeholder="Give text" onChange={(e)=> setValues(e.target.value)} />
-       <Button workFunc={handleCount}  variant="success" >Submit</Button>
-    </div> */}
+      <HomeHeader headerTitle='Website Health Checker' subTitle='Comprehensive analysis of your websites performance, security, SEO, and compliance' titleVariant="homeHeaderTitle" subTitleVariant="homeHeaderSubTitle" />
 
-     <TodoApp/>
+      <Form/>
 
+      
     </>
   )
 }
