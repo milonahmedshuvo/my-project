@@ -11,6 +11,8 @@
 .small {
     font-size: 0.875rem;
     color: #4b5563;
+    /* margin: 0.5rem; */
+    margin: 0.5rem 0rem;
 }
 
 /* Home style it  */
@@ -27,4 +29,9 @@
     font-weight: 500;
     color: hsl(214.74deg 15.97% 46.67%);
     line-height: 1.7rem;
+}
+
+.inputTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
 }

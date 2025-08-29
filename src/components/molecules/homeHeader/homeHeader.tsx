@@ -4,7 +4,7 @@ import React from 'react'
 type HeaderCardProps = {
     headerTitle: string,
     subTitle: string,
-    titleVariant: "small" | "title" | "body" | "homeHeaderTitle" | "homeHeaderSubTitle",
+    titleVariant: "small" | "title" | "body" | "homeHeaderTitle" | "homeHeaderSubTitle"| "inputTitle",
     subTitleVariant: "small" | "title" | "body" | "homeHeaderTitle" | "homeHeaderSubTitle"
 }
 
